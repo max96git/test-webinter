@@ -1,9 +1,31 @@
 # webinter test
 **this repository** was made to test Google fonts. it may not work on some devices. feel free to **fork this repository** and customize the **face= or style= or font-family:** value to your selected google font! **(you must have the font type too)**
 # how to customize?
-go to the **index.html** file, and then edit code. find the **face= or style= or font-family:** and replace the value to the font name. for example, you can use Open Sans. the preview will be like this:
+first, go to https://fonts.google.com/ and then search for the font you want to use. Select the style, Click the icon at the top right. For this example, We're using Open Sans. Copy this line of code:
 ```
-<h1 style="text-align: center;"><span face="font-family: 'Open Sans', sans-serif;">&nbsp;webinter</span></h1><h2 style="text-align: left;"><span face="font-family: 'Open Sans', sans-serif;">What is web?</span></h2><div><span style="font-family: 'Open Sans', sans-serif;">web was made to explore a lot. you can study in the internet.</span></div>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+```
+then replace this with the existing code in line 4 in the index.html file.
+after that, go to the **index.html** file, and then edit code. find the **face= or style= or font-family:** and replace the value to the font name. for example, you can use Open Sans. the preview will be like this:
+```
+<!DOCTYPE html>
+<html>
+<head>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+<style>
+body {
+  font-family: "Open Sans", sans-serif;
+}
+</style>
+</head>
+<body>
+
+<h1>webinter</h1>
+<p>Google Fonts TEST DEMO</p>
+
+</body>
+</html>
+
 
 ```
 # List of known fonts for use:
